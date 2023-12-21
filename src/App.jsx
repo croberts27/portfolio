@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
-
+import NotFound from "./pages/404";
 function App() {
   return (
     <>
@@ -20,7 +20,7 @@ function App() {
                 exact
                 element={<Home />}
               />
-              <Route
+              {/* <Route
                 target="_blank"
                 rel="noopener noreferrer"
                 path="/contact-event-ops"
@@ -40,7 +40,7 @@ function App() {
                 path="/contact-event-hoteliers"
                 exact
                 element={}
-              />
+              /> */}
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
