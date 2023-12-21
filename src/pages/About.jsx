@@ -1,4 +1,4 @@
-function Home() {
+function About() {
   return (
     <>
       {/* Hero section */}
@@ -56,4 +56,4 @@ function Home() {
     </>
   );
 }
-export default Home;
+export default About;

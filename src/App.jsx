@@ -1,14 +1,14 @@
 import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import About from "./pages/About";
 import Footer from "./components/Footer";
 import NotFound from "./pages/404";
 function App() {
   return (
     <>
       <Router>
-        <div className="bg-fixed font-poppins bg-repeat bg-hoops-background">
+        <div className="bg-fixed font-poppins bg-repeat">
           <Navbar />
 
           <main className="isolate">
@@ -18,7 +18,7 @@ function App() {
                 rel="noopener noreferrer"
                 path="/"
                 exact
-                element={<Home />}
+                element={<About />}
               />
               {/* <Route
                 target="_blank"

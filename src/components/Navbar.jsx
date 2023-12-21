@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import { Fragment } from "react";
-import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+
+import { Menu } from "@headlessui/react";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -12,7 +11,7 @@ function Navbar() {
 
   const isActive = (path) => {
     // Check if the current location matches the path
-    if (location.pathname === "/contact-event-ops") {
+    if (location.pathname === "/projects") {
       return "text-black"; // For Contact page or any other page
     }
     if (location.pathname === "/contact-event-attendees") {
@@ -23,29 +22,11 @@ function Navbar() {
     } else if (path === "/" && location.pathname !== "/") {
       return "text-white"; // For Home page
     }
-    return "text-white"; // Default color for other pages
-  };
-
-  const arrowIcon = (path) => {
-    if (location.pathname === "/contact-event-ops") {
-      return "text-black";
-    }
-    if (location.pathname === "/contact-event-ops") {
-      return "text-black"; // For Contact page or any other page
-    }
-    if (location.pathname === "/contact-event-attendees") {
-      return "text-black"; // For Contact page or any other page
-    }
-    if (location.pathname === "/contact-event-hoteliers") {
-      return "text-black"; // For Contact page or any other page
-    } else if (path === "/" && location.pathname === "/") {
-      return "text-white";
-    }
-    return "text-white";
+    return "text-black"; // Default color for other pages
   };
 
   return (
-    <header className="absolute shadow-sm inset-x-0 top-0 z-50">
+    <header className="absolute  shadow-md inset-x-0 top-0 z-50">
       <nav
         className="flex items-center justify-between
    p-6 lg:px-12"
@@ -54,105 +35,49 @@ function Navbar() {
         <div className="hidden lg:flex lg:gap-x-12">
           <Link
             className={`border-gray-300 inline-flex items-center border-b-2 px-1 pt-1 text-xl font-medium ${isActive(
-              "/about"
+              "/"
             )}`}
-            to="/about"
+            to="/"
           >
             About
           </Link>
           <Link
             className={`inline-flex items-center border-gray-300 border-b-2 px-1 pt-1 text-xl font-medium ${isActive(
-              "/events"
+              "/blogs"
             )}`}
-            to="/events"
+            to="/blogs"
           >
-            Events
+            Blogs
           </Link>
-          <Menu as="div" className="relative inline-block text-left">
-            <div>
-              <Menu.Button
-                className={`border-gray-300 inline-flex w-full items-center justify-center border-b-2 px-1 pt-1 text-xl font-medium text-black ${isActive(
-                  "/contact-event-ops"
-                )}`}
-              >
-                Contact Us
-                <ChevronDownIcon
-                  className={`-mr-1 h-5 w-5 text-black ${arrowIcon(
-                    "/contact-event-ops"
-                  )}`}
-                  aria-hidden="true"
-                />
-              </Menu.Button>
-            </div>
 
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-100"
-              enterFrom="transform opacity-0 scale-95"
-              enterTo="transform opacity-100 scale-100"
-              leave="transition ease-in duration-75"
-              leaveFrom="transform opacity-100 scale-100"
-              leaveTo="transform opacity-0 scale-95"
-            >
-              <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                <div className="py-1">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link
-                        to="/contact-event-ops"
-                        className={classNames(
-                          active
-                            ? "bg-gray-100 text-gray-900"
-                            : "text-gray-700",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        Event Operators
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
-                <div className="py-1">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link
-                        to="/contact-event-attendees"
-                        className={classNames(
-                          active
-                            ? "bg-gray-100 text-gray-900"
-                            : "text-gray-700",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        Event Attendees
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
+          <Link
+            className={`border-gray-300 inline-flex w-full items-center justify-center border-b-2 px-1 pt-1 text-xl font-medium text-black ${isActive(
+              "/projects"
+            )}`}
+            to="/projects"
+          >
+            Projects
+          </Link>
+          <Link
+            className={`border-gray-300 inline-flex w-full items-center justify-center border-b-2 px-1 pt-1 text-xl font-medium text-black ${isActive(
+              "/skills"
+            )}`}
+            to="/skills"
+          >
+            Skills
+          </Link>
+          <Link
+            className={`border-gray-300 inline-flex w-full items-center justify-center border-b-2 px-1 pt-1 text-xl font-medium text-black ${isActive(
+              "/experience"
+            )}`}
+            to="/experience"
+          >
+            Experience
+          </Link>
 
-                <div className="py-1">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link
-                        to="/contact-event-hoteliers"
-                        className={classNames(
-                          active
-                            ? "bg-gray-100 text-gray-900"
-                            : "text-gray-700",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        Hoteliers
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
-              </Menu.Items>
-            </Transition>
-          </Menu>
           {/* <Link
             className="inline-flex items-center border-b-2 border-white px-1 pt-1 text-xl font-medium text-white"
-            to="/contact-event-ops"
+            to="/projects"
           >
             Contact Us
           </Link> */}
