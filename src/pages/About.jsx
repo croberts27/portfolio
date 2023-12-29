@@ -14,20 +14,6 @@ function About() {
             Please, check out the links to my projects and blog posts, and be on
             the lookout for future additions!
           </p>
-          <div className="flex justify-center">
-            <a
-              href="#footer"
-              className="inline-flex text-white bg-gray-900 text-center border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg"
-            >
-              Contact Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-white bg-gray-900 text-center border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            >
-              Portfolio
-            </a>
-          </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
