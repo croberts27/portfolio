@@ -43,9 +43,9 @@ function Navbar() {
           </Link>
           <Link
             className={`inline-flex items-center border-gray-300 border-b-2 px-1 pt-1 text-xl font-medium ${isActive(
-              "/blogs"
+              "/blog"
             )}`}
-            to="/blogs"
+            to="/blog"
           >
             Blogs
           </Link>

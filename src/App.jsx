@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import NotFound from "./pages/404";
+import Blogs from "./pages/Blogs";
 function App() {
   return (
     <>
@@ -20,27 +21,8 @@ function App() {
                 exact
                 element={<About />}
               />
-              {/* <Route
-                target="_blank"
-                rel="noopener noreferrer"
-                path="/contact-event-ops"
-                exact
-                element={}
-              />
-              <Route
-                target="_blank"
-                rel="noopener noreferrer"
-                path="/contact-event-attendees"
-                exact
-                element={}
-              />
-              <Route
-                target="_blank"
-                rel="noopener noreferrer"
-                path="/contact-event-hoteliers"
-                exact
-                element={}
-              /> */}
+              <Route target="_blank" rel="noopener noreferrer" path="/blog" exact element={<Blogs />} />
+              
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
