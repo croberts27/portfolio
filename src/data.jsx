@@ -5,7 +5,7 @@ export const projects = [
     description:
       "LegendSmith uses your choices and top-notch AI to generate amazing characters. Whether you're a gamer looking for a character to sink your teeth into, or a writer searching for a great story prompt, LegendSmith is here to kick-start your imagination.",
     image: "src/images/legend-smith.jpg",
-    link: "https://legendsmith-77384eb64fff.herokuapp.com/login",
+    link: "https://github.com/branchwag/character-generator",
   },
   {
     title: "J.A.T.E.",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Downloadable text editor application for general note taking.",
     image: "src/images/jate.jpg",
-    link: "https://text-editor-pwa-crit-dd99cc88e911.herokuapp.com/",
+    link: "https://github.com/croberts27/text-editor?tab=readme-ov-file",
   },
   {
     title: "Recyculator",
@@ -37,7 +37,7 @@ export const projects = [
     description:
       "A platform for artists to find inspiration and share their work",
     image: "src/images/untitled.jpg",
-    link: "https://untitled-art-app-b560d4f5fa59.herokuapp.com/",
+    link: "https://github.com/vlexaega/project3-untitled",
   },
   {
     title: "TCI Housing",
