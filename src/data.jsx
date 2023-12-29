@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Forge Legends with LegendSmith: Where Characters Come to Life!",
     description:
       "LegendSmith uses your choices and top-notch AI to generate amazing characters. Whether you're a gamer looking for a character to sink your teeth into, or a writer searching for a great story prompt, LegendSmith is here to kick-start your imagination.",
-    image: "./legend-smith.png",
+    image: "src/images/legend-smith.jpg",
     link: "https://legendsmith-77384eb64fff.herokuapp.com/login",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Text Editor",
     description:
       "Downloadable text editor application for general note taking.",
-    image: "./jate.PNG",
+    image: "src/images/jate.jpg",
     link: "https://text-editor-pwa-crit-dd99cc88e911.herokuapp.com/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Your Guide to Eco-Friendly Recycling Solutions",
     description:
       "Recyculator is a website that provides information to users on how to dispose of waste items in the most environmentally sustainable way, while providing them the location of their nearest recycling center.",
-    image: "./recyculator-main.png",
+    image: "src/images/recyculator-main.jpg",
     link: "https://croberts27.github.io/recyculator/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Random Password Generator",
     description:
       "This app can be used to randomly generate a secure password for any use!",
-    image: "./psswrd-generator.png",
+    image: "src/images/psswrd-generator.jpg",
     link: "https://croberts27.github.io/password-generator-hw-3/",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "An social e-commerce online art gallery",
     description:
       "A platform for artists to find inspiration and share their work",
-    image: "./untitled.PNG",
+    image: "src/images/untitled.jpg",
     link: "https://untitled-art-app-b560d4f5fa59.herokuapp.com/",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     subtitle: "Where Hospitality Meets Sporting Ambitions.",
     description:
       "Webpage for TCI Housing so clients can find information on sporting events and contact for assistance in booking housing for their event.",
-    image: "./tci-housing-logo.jpg",
+    image: "src/images/tci-logo.jpg",
     link: "https://tcihousing.com",
   },
 ];
@@ -68,19 +68,19 @@ export const blogs = [
   {
     title: "Utilizing Backend Code to Render Data on the Frontend",
     subtitle: "Medium Article",
-    image: "./medium.png",
+    image: "src/images/medium.jpg",
     link: "https://medium.com/@calvinroberts1998/utilizing-backend-code-to-render-data-on-the-frontend-3ddf5f9aa861",
   },
   {
     title: "Implementing PayPal in React App",
     subtitle: "Medium Article",
-    image: "./medium.png",
+    image: "src/images/medium.jpg",
     link: "https://medium.com/@calvinroberts1998/implementing-paypal-in-react-app-5c27e885777b",
   },
   {
     title: "Learning A New Technology: Server-side APIs",
     subtitle: "Medium Article",
-    image: "./medium.png",
+    image: "src/images/medium.jpg",
     link: "https://medium.com/@calvinroberts1998/learning-a-new-technology-server-side-apis-e685a9e630c6",
   },
 ];
