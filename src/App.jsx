@@ -21,8 +21,13 @@ function App() {
                 exact
                 element={<About />}
               />
-              <Route target="_blank" rel="noopener noreferrer" path="/blog" exact element={<Blogs />} />
-              
+              <Route
+                target="_blank"
+                rel="noopener noreferrer"
+                path="/blog"
+                exact
+                element={<Blogs />}
+              />
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
