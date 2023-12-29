@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import NotFound from "./pages/404";
+import Skills from "./pages/Skills";
 import Blogs from "./pages/Blogs";
 function App() {
   return (
@@ -27,6 +28,12 @@ function App() {
                 path="/blog"
                 exact
                 element={<Blogs />}
+              />
+              <Route
+                target="_blank"
+                rel="noopener noreferrer"
+                path="/skills"
+                element={<Skills />}
               />
               <Route path="*" element={<NotFound />} />
             </Routes>
