@@ -44,8 +44,8 @@ function Navbar() {
         <div className="flex lg:flex-1 justify-end items-center">
           <Link className="-m-1.5 p-1.5" to="/">
             <img
-              className="h-20 w-auto"
-              src="src\images\profPic.PNG"
+              className="h-20 w-auto rounded-full"
+              src="src\images\profPic.jpg"
               alt="Calvin Matson-Roberts"
             />
           </Link>
