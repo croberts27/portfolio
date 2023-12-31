@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link, useLocation } from "react-router-dom";
 
 function classNames(...classes) {
@@ -45,7 +46,7 @@ function Navbar() {
           <Link className="-m-1.5 p-1.5" to="/">
             <img
               className="h-20 w-auto rounded-full"
-              src="src\images\profPic.jpg"
+              src="public\profPic.jpg"
               alt="Calvin Matson-Roberts"
             />
           </Link>

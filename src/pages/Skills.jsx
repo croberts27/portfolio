@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
