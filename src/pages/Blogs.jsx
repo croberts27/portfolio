@@ -1,12 +1,11 @@
 import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
 import { blogs } from "../data";
 
 function Blogs() {
   return (
     <section
       id="blogs"
-      className="text-black flex flex-wrap justify-center items-center  body-font"
+      className="text-black flex md:flex-col sm:flex-col lg:flex-col flex-wrap justify-center items-center body-font"
     >
       <div className="container mt-20 px-5 py-10 mx-auto text-center lg:px-40">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -20,17 +19,10 @@ function Blogs() {
               topics in the coding industry.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {blogs.map((blog) => (
-              <a
-                href={blog.link}
-                key={blog.image}
-                className="sm:w-1/2 w-full p-4"
-                style={{ flex: "0 0 calc(50% - 1rem)" }}
-              >
+              <a href={blog.link} key={blog.image} className="w-full p-4">
                 <div className="flex relative h-64 overflow-hidden rounded-xl">
-                  {" "}
-                  {/* Adjusted height and added rounded corners */}
                   <img
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
