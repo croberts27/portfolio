@@ -54,6 +54,9 @@ export const projects = [
 export const skills = [
   "JavaScript",
   "ReactJS",
+  "NextJS",
+  "VueJS",
+  "BunJS",
   "MySQL",
   "NodeJS",
   "GraphQL",
@@ -64,6 +67,7 @@ export const skills = [
   "HTML",
   "CSS",
   "ExpressJS",
+  "TailwindCSS",
 ];
 
 export const blogs = [
