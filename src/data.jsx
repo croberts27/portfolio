@@ -1,11 +1,11 @@
 /* eslint-disable no-useless-escape */
-import BlogImage from "../public/medium.jpg";
-import LegendSmithImg from "../public/legend-smith.jpg";
-import JATEImg from "../public/jate.jpg";
-import RecyculatorImg from "../public/recyculator-main.jpg";
-import PasswordGenImg from "../public/psswrd-generator.jpg";
-import UntitledImg from "../public/untitled.jpg";
-import TCIImg from "../public/tci-logo.jpg";
+import BlogImage from "/medium.jpg";
+import LegendSmithImg from "/legend-smith.jpg";
+import JATEImg from "/jate.jpg";
+import RecyculatorImg from "/recyculator-main.jpg";
+import PasswordGenImg from "/psswrd-generator.jpg";
+import UntitledImg from "/untitled.jpg";
+import TCIImg from "/tci-logo.jpg";
 export const projects = [
   {
     title: "Legend Smith",

@@ -46,7 +46,7 @@ function Navbar() {
           <Link className="-m-1.5 p-1.5" to="/">
             <img
               className="h-20 w-auto rounded-full"
-              src="public\profPic.jpg"
+              src="/profPic.jpg"
               alt="Calvin Matson-Roberts"
             />
           </Link>

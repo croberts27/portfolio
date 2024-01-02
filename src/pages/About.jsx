@@ -23,7 +23,7 @@ function About() {
           <img
             className="object-cover mt-20 object-center rounded-full"
             alt="profile picture"
-            src="/images/profPic.jpg"
+            src="/profPic.jpg"
           />
         </div>
       </div>
