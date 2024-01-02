@@ -2,6 +2,30 @@
 
 export const projects = [
   {
+    title: "TCI Housing",
+    subtitle: "Where Hospitality Meets Sporting Ambitions.",
+    description:
+      "Webpage for TCI Housing so clients can find information on sporting events and contact for assistance in booking housing for their event.",
+    image: "/tci-logo.jpg",
+    link: "https://tcihousing.com",
+  },
+  {
+    title: "Recyculator",
+    subtitle: "Your Guide to Eco-Friendly Recycling Solutions",
+    description:
+      "Recyculator is a website that provides information to users on how to dispose of waste items in the most environmentally sustainable way, while providing them the location of their nearest recycling center.",
+    image: "/recyculator-main.jpg",
+    link: "https://croberts27.github.io/recyculator/",
+  },
+  {
+    title: "untitled.",
+    subtitle: "An social e-commerce online art gallery",
+    description:
+      "A platform for artists to find inspiration and share their work",
+    image: "/untitled.jpg",
+    link: "https://github.com/vlexaega/project3-untitled",
+  },
+  {
     title: "Legend Smith",
     subtitle: "Forge Legends with LegendSmith: Where Characters Come to Life!",
     description:
@@ -17,14 +41,7 @@ export const projects = [
     image: "/jate.jpg",
     link: "https://github.com/croberts27/text-editor?tab=readme-ov-file",
   },
-  {
-    title: "Recyculator",
-    subtitle: "Your Guide to Eco-Friendly Recycling Solutions",
-    description:
-      "Recyculator is a website that provides information to users on how to dispose of waste items in the most environmentally sustainable way, while providing them the location of their nearest recycling center.",
-    image: "/recyculator-main.jpg",
-    link: "https://croberts27.github.io/recyculator/",
-  },
+
   {
     title: "Password Generator",
     subtitle: "Random Password Generator",
@@ -32,22 +49,6 @@ export const projects = [
       "This app can be used to randomly generate a secure password for any use!",
     image: "/psswrd-generator.jpg",
     link: "https://croberts27.github.io/password-generator-hw-3/",
-  },
-  {
-    title: "untitled.",
-    subtitle: "An social e-commerce online art gallery",
-    description:
-      "A platform for artists to find inspiration and share their work",
-    image: "/untitled.jpg",
-    link: "https://github.com/vlexaega/project3-untitled",
-  },
-  {
-    title: "TCI Housing",
-    subtitle: "Where Hospitality Meets Sporting Ambitions.",
-    description:
-      "Webpage for TCI Housing so clients can find information on sporting events and contact for assistance in booking housing for their event.",
-    image: "/tci-logo.jpg",
-    link: "https://tcihousing.com",
   },
 ];
 
