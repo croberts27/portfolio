@@ -1,5 +1,4 @@
 import "./index.css";
-// eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
@@ -17,33 +16,33 @@ function App() {
 
           <main className="isolate">
             <Routes>
-              <Link
+              <Route
                 target="_blank"
                 rel="noopener noreferrer"
                 path="/"
                 exact
                 element={<About />}
               />
-              <Link
+              <Route
                 target="_blank"
                 rel="noopener noreferrer"
                 path="/blog"
                 exact
                 element={<Blogs />}
               />
-              <Link
+              <Route
                 target="_blank"
                 rel="noopener noreferrer"
                 path="/skills"
                 element={<Skills />}
               />
-              <Link
+              <Route
                 target="_blank"
                 rel="noopener noreferrer"
                 path="/projects"
                 element={<Projects />}
               />
-              <Link path="*" element={<NotFound />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
           </main>
