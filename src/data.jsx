@@ -2,6 +2,22 @@
 
 export const projects = [
   {
+    title: "TCI Housing",
+    subtitle: "Where Hospitality Meets Sporting Ambitions.",
+    description:
+      "Webpage for TCI Housing so clients can find information on sporting events and contact for assistance in booking housing for their event.",
+    image: "/tci-logo.jpg",
+    link: "https://tcihousing.com",
+  },
+  {
+    title: "Snail Runner",
+    subtitle: "Jump the snails to live!",
+    description:
+      "A simple game coded with using Python and an introduction to pygame.",
+    image: "/snail.jpg",
+    link: "https://github.com/croberts27/goblin-runner",
+  },
+  {
     title: "Recyculator",
     subtitle: "Your Guide to Eco-Friendly Recycling Solutions",
     description:
@@ -42,14 +58,6 @@ export const projects = [
     image: "/psswrd-generator.jpg",
     link: "https://croberts27.github.io/password-generator-hw-3/",
   },
-  {
-    title: "TCI Housing",
-    subtitle: "Where Hospitality Meets Sporting Ambitions.",
-    description:
-      "Webpage for TCI Housing so clients can find information on sporting events and contact for assistance in booking housing for their event.",
-    image: "/tci-logo.jpg",
-    link: "https://tcihousing.com",
-  },
 ];
 
 export const skills = [
@@ -71,6 +79,7 @@ export const skills = [
   "CSS",
   "ExpressJS",
   "TailwindCSS",
+  "SQL",
 ];
 
 export const blogs = [
